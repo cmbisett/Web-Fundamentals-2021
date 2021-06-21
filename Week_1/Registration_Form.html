@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+
+    <form action="/process" method="post">
+        <div>
+            <label>Name: *</label>
+            <input type="text" name="name" placeholder="Your name...">
+        </div>
+       
+        <div>
+            <label>Last Name: *</label>
+            <input type="text" name="last_name" placeholder="Your Last Name...">
+        </div>
+        
+        <div>
+            <label>Email: *</label>
+            <input type="text" name="email" placeholder="Your email...">
+        </div>
+        
+        <div>
+            <label>Password: *</label>
+            <input type="password" name="password" placeholder="Your password...">
+        </div>
+        
+        <div>
+            <label>Confirm Password: *</label>
+            <input type="password" name="confirm_password" placeholder="Confirm your password...">
+        </div>
+
+        <div>
+            <label>Birthday:</label>
+            <input type="date" name="dob">
+        </div>
+
+        <div>
+            <label>Gender Identity:</label>
+        </div>
+        
+        <div>
+            <input type="radio" name="gender" value="male" id="male">
+                <label for="male">Male</label>
+            <input type="radio" name="gender" value="female" id="female" >
+                <label for="female">Female</label>
+            <input type="radio" name="gender" value="non-binary" id="non-binary">
+                <label for="non-binary" >Non-Binary</label>
+            <input type="radio" name="prefer-not" value="prefer-not" id="prefer-not">
+                <label for="prefer-not">I prefer not to answer</label>
+        </div>
+        
+        <label>A short description about myself:</label>
+        
+        <div>
+            <textarea name="get-to-know" id="get-to-know" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+            <label for="fav-lang">Favorite Language</label>
+            <select name="language" id="language">
+                <option>Enlgish</option>
+                <option>Spanish</option>
+                <option>Choctaw</option>
+                <option>Armenian</option>
+            </select>
+        </div>
+
+        <div>
+            <input type="checkbox" name="checkbox" id="checkbox">
+            <label for="checkbox">Yes, I would like to recieve email updates</label>
+        </div>
+
+        <div>
+            <input type="submit" value="Create Acount">
+        </div>
+        
+        <div>
+            <label>* Indicates a required field</label>
+        </div>
+       
+    </form>
+
+
+
+</body>
+</html>
