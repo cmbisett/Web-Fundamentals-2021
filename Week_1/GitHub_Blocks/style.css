@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+    font-size: 70px;
+    color: silver;
+    padding-top: .2em;
+}
+
+h2 {
+    text-align: center;
+    color: silver;
+    padding-bottom: .2em;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin: 3em;
+    padding: 1em;
+}
+
+.topRow {
+    background-color: #2E5090; 
+}
+
+.middleRow {
+    background-color: darkslategrey; 
+}
+
+.bottomRow {
+    background-color: rgb(27, 53, 27); 
+}
+img {
+    height: 500px;
+    width: 500px;
+}
+
+.container {
+    background: linear-gradient(black, orange, black)
+}
