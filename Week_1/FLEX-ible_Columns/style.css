@@ -1,0 +1,25 @@
+.row {
+    display: flex;
+    height: 100px;
+}
+
+.col {
+    flex: 1;
+    background-color: seagreen;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+
+.col-2 {
+    flex: 2;
+    background-color: seagreen;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+
+.col-3 {
+    flex: 3;
+    background-color: seagreen;
+    margin-right: 1em;
+    margin-top: 1em;
+}
