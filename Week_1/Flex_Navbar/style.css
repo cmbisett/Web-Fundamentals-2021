@@ -1,0 +1,41 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3a3f44;
+    color: white;
+    height: 70px;
+    align-items: center;
+}
+
+.nav-links { 
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+    margin-right: 1em;
+}
+
+.active {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    color: silver;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: royalblue;
+    font-size: 15px;
+    padding: .3em;
+    box-shadow: 5px 5px 5px black;
+}
+
+.nav-title {
+    margin-left: .5em;
+}
