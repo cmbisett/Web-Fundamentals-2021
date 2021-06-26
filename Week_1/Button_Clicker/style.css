@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navBar {
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+}
