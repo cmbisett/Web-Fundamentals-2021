@@ -26,3 +26,13 @@ var answer = lifesAnswers[Math.ceil(Math.random() * lifesAnswers.length)]
 console.log(answer)
 
 // MAKE IT INTO A FUNCTION
+
+function magic8(lifesAnswers){
+    var max = lifesAnswers.length
+    var min = 0
+    var predict = Math.floor(Math.random() * (max - min) + min);
+    return lifesAnswers[predict]
+}
+
+var prediction = magic8(lifesAnswers)
+console.log(prediction) 

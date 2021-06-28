@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0em;
+}
+
+.userCard {
+    border-style: solid;
+    border-color: black;
+    flex: 1;
+    /* THIS IS FOR PART 1 */
+    width: 600px;
+    margin-left: 8em;
+    margin-top: 4em;
+    padding: 2em;
+}
+
+.userTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.userTitle > h1 {
+    font-size: 40px;
+}
+
+.userTitle > .likesCount {
+    margin-left: 4em;
+    font-size: 25px;
+}
+
+.likeBtn {
+    font-size: 25px;
+    font-weight: bold;
+    height: 45px;
+    width: 90px;
+    background-color: #ffd966;
+    box-shadow: 5px 5px 5px black;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+}
