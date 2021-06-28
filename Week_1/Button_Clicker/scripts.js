@@ -7,7 +7,8 @@ function removeBtn (element) {
 }
 
 function countLikes (element) {
-    var count = 13;
+    var count = 13
+
     onclick = count++; 
     element.innerText = count + ' Likes';
 }
