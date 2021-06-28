@@ -10,8 +10,122 @@
     margin-right: auto;
 }
 
+a {
+    color: #21649f;
+}
+
+/* NAVIGATION BAR */
+
 .navBar {
-    background-color: grey;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-around;
+    font-size: 45px;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.navBar > input {
+    height: 40px;
+    width: 420px;
+    padding-left: 1em;
+}
+
+/* TOP SECTION OF DIVS [FIRST NINJA DEF & ADD DEF] */
+
+.topContainer {
     display: flex;
     justify-content: space-between;
+}
+
+.topDef {
+    border-style: solid;
+    border-color: black;
+    flex: 2;
+    margin-right: 2em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 290px;
+}
+
+.rightBox {
+    border-style: solid;
+    border-color: black;
+    flex: 1;
+    height: 260px;
+    display: grid;
+    align-items: center;
+}
+
+.rightBox > h1 {
+    font-size: 50px;
+    margin-left: .5em
+    ;
+}
+
+.leftCol {
+    font-size: 30px;
+    align-items: center;
+}
+
+.rightCol {
+    font-size: 20px;
+}
+
+.leftCol > h3 {
+    margin-left: 1em;
+}
+
+/* BOTTOM DEF CONTAINER */
+
+.bottomContainer {
+    width: 843.33px;
+    margin-top: 2em;
+}
+
+.bottomDef {
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 290px;
+}
+
+/* BUTTONS */
+
+.likesBtn {
+    background-color: #ffd966;
+    height: 40px;
+    width: 140px;
+    box-shadow: 4px 4px 4px black;
+    border-style: solid;
+    border-color: black;
+    margin-top: 1.5em;
+    font-size: 20px;
+}
+
+.loginBtn {
+    background-color: #2b78e4;
+    height: 40px;
+    width: 140px;
+    box-shadow: 4px 4px 4px black;
+    border-style: solid;
+    border-color: black;
+    margin-right: 2em;
+    color: white;
+    font-size: 20px;
+}
+
+.defBtn {
+    background-color: #93c47d;
+    height: 40px;
+    width: 90%;
+    box-shadow: 4px 4px 4px black;
+    border-style: solid;
+    border-color: black;
+    font-size: 20px;
+    margin-left: 1em;
+    font-weight: bolder;
 }

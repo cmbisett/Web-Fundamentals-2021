@@ -9,44 +9,57 @@
 </head>
 <body>
     <div class="container">
-         
+        
         <div class="navBar">
             <h1 class="webTitle">Dojonary</h1>
             <input type="search" placeholder="Search...">
-            <button class="loginBtn">Login</button>
+            <button class="loginBtn" onclick="loginBtn(this)">Login</button>
         </div>
         
-        <div class="topDef">
-            <div class="leftCol">
-                <h1 class="defNames">Ninja</h1>
-                <h2 style="color:#808080">'ninjə</h2>
-                <h3><em>noun</em></h3>
-                <button class="likesBtn" id="topBtn">13 Likes</button>
+        <div class="topContainer"> 
+            <div class="topDef">
+                <div class="leftCol">
+                    <h1 class="defNames">Ninja</h1>
+                    <h3><em>noun</em></h3>
+                    <h4>Plural: <em>ninja</em>s</h4>
+                    <button class="likesBtn" id="topBtn" onclick="alert('Ninja was liked'); countLikes(this)" >13 Likes</button>
+                </div>
+                <div class="rightCol">                    
+                     <div>
+                         <h2>A practitioner skilled in the</h2>                    
+                     </div> 
+                     <div>
+                         <h2><a href="">Japanese</a> are of <a href="">ninjitsu</a></h2>
+                     </div>  
+                </div>
             </div>
-            <div class="rightCol">
-                <ol>
-                    <li>A practitioner skilled in the Japanese are of ninjitsu</li>
-                </ol>
+            
+            <div class="rightBox">
+                <h1>Dojonary is defined by YOU</h1>
+                <button class="defBtn" onclick="removeBtn(this)">Add Definition</button>
             </div>
         </div>
         
-        <div class="bottomDef">
-            <div class="leftCol">
-                <h1 class="defNames">Ninja</h1>
-                <h2 style="color:#808080">'ninjə</h2>
-                <h3><em>noun</em></h3>
-                <button class="likesBtn" id="bottomBtn">13 Likes</button>
+        <div class="bottomContainer">
+            <div class="bottomDef">
+                <div class="leftCol">
+                    <h1 class="defNames">Ninja</h1>
+                    <h3><em>noun</em></h3>
+                    <h4>Plural: <em>ninja</em>s</h4>
+                    <button class="likesBtn" id="topBtn" onclick="alert('Ninja was liked'); countLikes(this)">13 Likes</button>
+                </div>
+                <div class="rightCol">
+                    <div>
+                        <h2>A <a href="">programmer</a> who breaks</h2>
+                    </div>
+                    <div>
+                        <h2>down problems with <a href="">zen</a>-like</h2>
+                    </div>
+                    <div>
+                        <h2>focus</h2>
+                    </div>
+                </div>
             </div>
-            <div class="rightCol">
-                <ol>
-                    <li>A practitioner skilled in the Japanese are of ninjitsu</li>
-                </ol>
-            </div>
-        </div>
-
-        <div class="rightBox">
-            <h1>Dojonary is defined by YOU</h1>
-            <button class="defBtn">Add Definition</button>
         </div>
     </div>
 
