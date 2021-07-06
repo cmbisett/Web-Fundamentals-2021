@@ -101,19 +101,22 @@ console.log(prediction)
 //     }
 // }
 
-//----------------------------------
+//-----------------------------------------
 //FLATTEN ARRAYS/COMBINING ARRAYS INTO ONE
-//----------------------------------
+//-----------------------------------------
 
-function flatten(arr2d) {
-    var flat = [];
-    for (var i=0; i<arr2d.length; i++) {
-        for (var t=0; t<arr2d[i].length; t++) {
-            flat.push(arr2d[i][t])
-        }
-    }
-    return flat;
-}
+// function flatten(arr2d) {
+//     var flat = [];
+//     for (var i=0; i<arr2d.length; i++) {
+//         for (var t=0; t<arr2d[i].length; t++) {
+//             flat.push(arr2d[i][t])
+//         }
+//     }
+//     return flat;
+// }
 
-var result = flatten( [ [2, 5, 8], [3, 6, 1], [5, 7, 7] ] );
-console.log(result);
+// var result = flatten( [ [2, 5, 8], [3, 6, 1], [5, 7, 7] ] );
+// console.log(result);
+
+// DOJO MINSWEEPER ALGO
+

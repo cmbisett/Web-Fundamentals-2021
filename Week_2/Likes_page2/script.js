@@ -20,3 +20,5 @@ function counter3 () {
     likesCount3.innerHTML = count3 + ' like(s)';
     console.log(count);
 }
+
+
